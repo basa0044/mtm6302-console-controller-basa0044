@@ -1,0 +1,20 @@
+:root{
+    --white: #fafafa;
+    --darkblue: #263238;
+    --black: #000000;
+    --lightblue: #cfd8dc
+}
+
+p{
+    width: 450px;
+}
+
+.dark{
+   color: var(--white);
+   background-color: var(--darkblue);
+}
+
+.light{
+   color: var(--black);
+   background-color: var(--lightblue); 
+}
