@@ -19,11 +19,19 @@ function setFontColor (color){
     $description.style.color = color
 }
 
-function setTheme (light,dark){
-        $body.className = dark = dark
-        $description.className = dark = dark
-        $title.className = dark = dark
-        $body.className = light = light
-        $description.className = light = light
-        $title.className = light = light
+function setTheme (dark){
+ $body.className = dark
 }
+
+function setTheme (light){
+    $body.className = light
+}
+
+
+
+
+
+
+
+
+
