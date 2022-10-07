@@ -15,17 +15,13 @@ function setBackgroundColor (color){
 }
 
 function setFontColor (color){
-    $title.style.color = color
-    $description.style.color = color
+    $body.style.color = color
 }
 
-function setTheme (dark){
- $body.className = dark
+function setTheme (theme){
+ $body.className = theme
 }
 
-function setTheme (light){
-    $body.className = light
-}
 
 
 
